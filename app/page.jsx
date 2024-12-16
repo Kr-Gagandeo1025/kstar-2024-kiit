@@ -11,7 +11,7 @@ export default function Home() {
     <EventsSection/>
     <EventCatalog/>
     <FAQ/>
-    <footer className="w-full lg:text-xl text-sm text-white flex items-center justify-center p-5 uppercase font-bold text-center">
+    <footer className="w-full lg:text-xl text-sm text-white flex items-center justify-center lg:p-5 p-1 uppercase font-bold text-center">
       Designed by Kreative Eye | Developed by Konnexions
     </footer>
   </div>  

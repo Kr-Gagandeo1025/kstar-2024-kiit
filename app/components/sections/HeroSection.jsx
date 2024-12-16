@@ -5,8 +5,8 @@ import NavBar from './NavBar'
 const HeroSection = () => {
   return (
     <div className="min-h-screen w-screen flex flex-col items-center justify-start bg-cover bg-hero-bg-img">
-        <NavBar/>
-      <div className="flex lg:flex-row flex-col items-center w-full justify-between lg:px-32 px-5 mt-10">
+        <NavBar page={"home"}/>
+      <div className="flex lg:flex-row flex-col items-center w-full justify-between lg:px-32 px-5 lg:mt-0 mt-10">
         <img src="\images\header-event-img.svg" alt="hero-main-kstar" className='lg:h-[350px] w-auto object-cover'/>
         <img src="\images\prize-pool.svg" alt="hero-prize-highlight" className='lg:h-[550px] w-auto object-cover'/>
       </div>
