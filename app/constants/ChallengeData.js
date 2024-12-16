@@ -5,7 +5,7 @@ const Data = {
         "desc":"To play a wrong note is insignificant .To play without passion is inexcusable”-Beethovan If you are a musician and feel like the mundane routine has toned down your passion and love for music, then hold your fire no more.The stage is all set for you to mesmerize everyone with your euphonious voice. To be the best instrumentalist or vocalist among your peers. Let this wonderful event encourage you to sustain your passion , love and proclivity for music.",
         "imgurl":"/images/challenges/frame_singing.svg",
         "bannerurl":"",
-        "submissionLink":"https://www.youtube.com",
+        "submissionLink":"",
         "guidelinesLink":""
     },
     dance:{
