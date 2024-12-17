@@ -25,24 +25,9 @@ const FaqCard = ({data}) => {
 const FAQ = () => {
     const faqs = [
         {
-          id: 1,
-          ques: "What is Registration Id?",
-          ans: " Your University Roll No. provided by you at the time of registration will be considered as the Registration Id of KSTAR.",
-        },
-        {
-          id: 2,
-          ques: "When will the registrations start?",
-          ans: " The registration of the event will start from 16th Dec 2024, 5PM.",
-        },
-        {
-          id: 3,
-          ques: "When will the registrations close?",
-          ans: " The registrations of the event will close on 24th Dec 2024, 10AM",
-        },
-        {
           id: 4,
           ques: "How can I Register?",
-          ans: " You can register using the Register Now buttons on the Homepage, irrespective of the categories",
+          ans: " You are automatically registered when you submit your submission",
         },
         {
           id: 5,
@@ -84,7 +69,7 @@ const FAQ = () => {
                 <FaqCard data={faq} key={faq.id}/>
             ))}
         </div>
-        <img src="\images\faq-img.svg" alt="faq" className='w-[300px] h-[100vh] object-cover lg:flex hidden'/>
+        <img src="\images\faq-img.svg" alt="faq" className='w-[300px] h-[70vh] object-cover lg:flex hidden'/>
       </div>
     </div>
   )

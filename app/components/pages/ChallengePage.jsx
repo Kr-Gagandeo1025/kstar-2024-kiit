@@ -15,13 +15,13 @@ const ChallengePage = ({data}) => {
       <div className='flex w-fit item-center justify-center lg:-translate-y-36'>
         <img src="\images\72hrPoster.svg" alt="72-hr-poster" className='lg:w-[500px] w-[100%] h-auto'/>
       </div>
-      <div className='flex items-center justify-between lg:px-20 px-3 lg:-translate-y-36'>
+      <div className='flex items-center justify-between lg:px-20 px-5 lg:-translate-y-36'>
         <div className='flex-col flex items-start justify-start w-full'>
         <span className='flex bg-reg-text-gradient bg-clip-text text-transparent lg:text-5xl text-3xl font-bold py-3'>
           {data.title}
         </span>
         <span className='lg:text-2xl text-xl text-white font-bold'>{data.desc}</span>
-        <div className='flex items-center justify-center gap-4 mt-10'>
+        <div className='flex items-center justify-center gap-4 mt-10 flex-wrap'>
           {data.submissionLink &&
             <Link href={`${data?.submissionLink}`} target="_blank" className='bg-[#F7C951] px-5 py-3 lg:text-xl text-sm text-[#4F1516] font-bold rounded-xl'>Submit Here</Link>
           }

@@ -80,20 +80,13 @@ const EventCatalog = () => {
         path: "challenges/fashion",
       }]
   return (
-    <div className="flex flex-col w-full items-center justify-center py-10">
+    <div className="flex flex-col w-full items-center justify-center py-10" id='challenges'>
         <div className='w-full flex items-center justify-evenly flex-wrap gap-10 lg:px-32 px-2 lg:mt-24 mt-5'>
             {
                 eventData.map((ed)=>(
                     <EventCard data={ed} key={ed.id}/>
                 ))
             }
-        </div>
-        <div className="bg-reg-btn_brdr-gradient p-0.5 rounded-xl mt-24">
-            <button className='rounded-xl px-3 py-2 bg-reg-btn_bg-gradient'>
-                <span className='bg-reg-text-gradient bg-clip-text text-transparent text-4xl font-bold'>
-                    Register Now!
-                </span>
-            </button>
         </div>
     </div>
   )
